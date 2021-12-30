@@ -13,6 +13,4 @@
       3) Configure the Collcetion name and environment config in "NewmanRunnerWithOutput.js" file
       4) Configur required response data in On "reuest" function
       5) Run the script using commnand "node NewmanRunnerWithOutput.js"
-      6) Data would be outputted to CSV file and HTML would be generated as below
-    
-    ![html_report](https://user-images.githubusercontent.com/93202634/147746353-ee48bc9d-87e9-461e-8aff-0e1b448e6db7.PNG)
+      6) Data would be outputted to CSV file and HTML result would be generated
