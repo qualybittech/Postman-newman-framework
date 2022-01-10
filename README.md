@@ -14,3 +14,4 @@
       4) Configur required response data in On "reuest" function
       5) Run the script using commnand "node NewmanRunnerWithOutput.js"
       6) Data would be outputted to CSV file and HTML result would be generated
+      
