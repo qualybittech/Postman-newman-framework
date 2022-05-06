@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "d21037e7-a739-4b49-a2b3-9cc20ace87cf",
+		"name": "CSV_Automation 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseURL2}}/api/users/{{page}}",
+					"host": [
+						"{{BaseURL2}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"{{page}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
