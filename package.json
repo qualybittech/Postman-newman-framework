@@ -15,5 +15,10 @@
     "newman-reporter-html": "^1.0.5",
     "newman-reporter-htmlextra": "^1.22.3",
     "papaparse": "^5.3.1"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "imap": "^0.8.19",
+    "mailparser": "^3.5.0"
   }
 }
